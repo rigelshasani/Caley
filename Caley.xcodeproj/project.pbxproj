@@ -10,12 +10,14 @@
 		384271142C8A3AA900E108D7 /* CaleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271132C8A3AA900E108D7 /* CaleyApp.swift */; };
 		384271162C8A3AA900E108D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271152C8A3AA900E108D7 /* Persistence.swift */; };
 		384271192C8A3AA900E108D7 /* Caley.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 384271172C8A3AA900E108D7 /* Caley.xcdatamodeld */; };
-		3842711B2C8A3AA900E108D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842711A2C8A3AA900E108D7 /* ContentView.swift */; };
 		3842711D2C8A3AAB00E108D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3842711C2C8A3AAB00E108D7 /* Assets.xcassets */; };
 		384271212C8A3AAB00E108D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384271202C8A3AAB00E108D7 /* Preview Assets.xcassets */; };
 		3842712B2C8A3AAB00E108D7 /* CaleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3842712A2C8A3AAB00E108D7 /* CaleyTests.swift */; };
 		384271352C8A3AAB00E108D7 /* CaleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271342C8A3AAB00E108D7 /* CaleyUITests.swift */; };
 		384271372C8A3AAB00E108D7 /* CaleyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271362C8A3AAB00E108D7 /* CaleyUITestsLaunchTests.swift */; };
+		384271442C8A3CE700E108D7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271432C8A3CE700E108D7 /* CalendarView.swift */; };
+		384271462C8A3D1000E108D7 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271452C8A3D1000E108D7 /* WorkoutDetailView.swift */; };
+		3842714A2C8A571C00E108D7 /* IdentifiableDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384271492C8A571C00E108D7 /* IdentifiableDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		384271132C8A3AA900E108D7 /* CaleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaleyApp.swift; sourceTree = "<group>"; };
 		384271152C8A3AA900E108D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		384271182C8A3AA900E108D7 /* Caley.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caley.xcdatamodel; sourceTree = "<group>"; };
-		3842711A2C8A3AA900E108D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3842711C2C8A3AAB00E108D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3842711E2C8A3AAB00E108D7 /* Caley.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Caley.entitlements; sourceTree = "<group>"; };
 		384271202C8A3AAB00E108D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		384271302C8A3AAB00E108D7 /* CaleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384271342C8A3AAB00E108D7 /* CaleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaleyUITests.swift; sourceTree = "<group>"; };
 		384271362C8A3AAB00E108D7 /* CaleyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaleyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		384271432C8A3CE700E108D7 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		384271452C8A3D1000E108D7 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		384271492C8A571C00E108D7 /* IdentifiableDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				384271132C8A3AA900E108D7 /* CaleyApp.swift */,
 				384271152C8A3AA900E108D7 /* Persistence.swift */,
-				3842711A2C8A3AA900E108D7 /* ContentView.swift */,
 				3842711C2C8A3AAB00E108D7 /* Assets.xcassets */,
 				3842711E2C8A3AAB00E108D7 /* Caley.entitlements */,
 				384271172C8A3AA900E108D7 /* Caley.xcdatamodeld */,
 				3842711F2C8A3AAB00E108D7 /* Preview Content */,
+				384271432C8A3CE700E108D7 /* CalendarView.swift */,
+				384271452C8A3D1000E108D7 /* WorkoutDetailView.swift */,
+				384271492C8A571C00E108D7 /* IdentifiableDate.swift */,
 			);
 			path = Caley;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384271442C8A3CE700E108D7 /* CalendarView.swift in Sources */,
+				384271462C8A3D1000E108D7 /* WorkoutDetailView.swift in Sources */,
 				384271142C8A3AA900E108D7 /* CaleyApp.swift in Sources */,
+				3842714A2C8A571C00E108D7 /* IdentifiableDate.swift in Sources */,
 				384271162C8A3AA900E108D7 /* Persistence.swift in Sources */,
-				3842711B2C8A3AA900E108D7 /* ContentView.swift in Sources */,
 				384271192C8A3AA900E108D7 /* Caley.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Caley/Preview Content\"";
+				DEVELOPMENT_TEAM = DYAYXFMND5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -440,7 +449,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -464,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Caley/Preview Content\"";
+				DEVELOPMENT_TEAM = DYAYXFMND5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -476,7 +486,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
